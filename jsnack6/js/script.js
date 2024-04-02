@@ -8,12 +8,13 @@ let flag = false;
 
 // LOGIC
 // if user number isNaN  "lazy evaluation condition"
-if(isNaN(userNumber)){3
+if(isNaN(userNumber)){
     flag = true;
 }
 
 for(let i = 1; i < userNumber+1 && flag == false; i++){
-    arrayCube.push(i*i*i);
+    arrayCube.push(Math.pow(i,3));
+    console.log(arrayCube);
 }
 
 // OUTPUT
