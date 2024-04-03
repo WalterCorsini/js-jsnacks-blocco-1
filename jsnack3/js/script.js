@@ -8,7 +8,6 @@ let flag = false;
 for(let i = 0; i < 10; i++){
     listNum.push(parseInt(prompt("inserisci un numero")));
 }
-
 // LOGIC
 // control isNaN
 for(let i = 0; i < 10; i++){
@@ -18,6 +17,7 @@ for(let i = 0; i < 10; i++){
     }
 }
 
+
 // if isNan Error else Sum
 if(flag === true){
     alert("dati inseriti non corretti!!");
@@ -25,8 +25,8 @@ if(flag === true){
     for(let i = 0; i < 10; i++){
         sum += listNum[i];
     }
+    // OUTPUT
+    alert("ecco a te la somma: "+ sum);
 }
 
-// OUTPUT
-alert("ecco a te la somma: "+ sum);
 

@@ -14,7 +14,6 @@ if(isNaN(userNumber)){
 
 for(let i = 1; i < userNumber+1 && flag == false; i++){
     arrayCube.push(Math.pow(i,3));
-    console.log(arrayCube);
 }
 
 // OUTPUT
